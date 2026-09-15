@@ -22,7 +22,7 @@ pipeline {
 }
 
             steps {
-                sh 'cd demo && mvn clean test'
+                sh 'mvn clean test'
             }
         }
     }
